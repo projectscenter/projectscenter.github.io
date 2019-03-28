@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Built Titling Bd";
+    height: 100%;
+    margin-bottom: 45px;
+}
+
+@font-face {
+    font-family: "Built Titling Bd";
+    src: url("built titling bd.ttf");
+}
+
+h1 {
+    font-family: "Built Titling Bd";
+}
+
+.bg {
+    background: #51eaea;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pclo {
+    height: 300px;
+    width: auto;
+}
+
+div.container {
+    padding: 0 20%;
+}
+
+.videoYt {
+    position: relative;
+    top: -50px;
+    /* box-shadow: 1px 1px 50px black; */
+}
+
+.ap {
+    text-align: center;
+}
+
+.font {
+    font-family: "Built Titling Bd";
+}
+
+.ttl {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: #fb3569;
+    margin-top: 45px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+
+.join {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #fb3569;
+    padding: 10px 20px;
+    border-radius: 35px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
+    transition: 0.1s;
+    margin-bottom: 45px;
+}
+
+.join:hover {
+    font-size: 37px;
+    transition: 0.1s;
+}
+
+.joinBox {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+footer {
+    margin-top: 100px;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back {
+    color: #fb356a96;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.back:hover {
+    font-size: 40px;
+    transition: 0.1s;
+    color: #fb3569;
+}
+
+.docos {
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width:993px) {
+    .videoYt {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:753px) {
+    .videoYt {
+        height: 250px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .videoYt {
+        height: 150px;
+        width: 250px;
+    }
+}
+
+.linko {
+    text-decoration: none;
+    color: #757575;
+}
