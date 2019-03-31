@@ -32,6 +32,15 @@ h1 {
     width: auto;
 }
 
+@media screen and (max-width:600px) {
+    .pclo {
+    height: 150px;
+    width: auto;
+    }
+}
+
+
+
 div.container {
     padding: 0 20%;
 }
