@@ -27,19 +27,27 @@ h1 {
     justify-content: center;
 }
 
+@media screen and (max-width:684px) {
+    .bg {
+        height: 40%;
+    }
+    .pclo {
+        height: 150px !important;
+        width: auto;
+    }
+    div.container {
+        padding: 0 15%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .pclo {
     height: 300px;
     width: auto;
 }
-
-@media screen and (max-width:600px) {
-    .pclo {
-    height: 150px;
-    width: auto;
-    }
-}
-
-
 
 div.container {
     padding: 0 20%;
